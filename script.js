@@ -12,7 +12,7 @@ document.getElementById('submitBtn').addEventListener('click', () => {
         date: date
     };
 
-    fetch('https://script.google.com/macros/s/AKfycbx5ym2m2UYl2DDqRvdsqqPCbuJGj4A0_--gmjO5HZQzsq0bRkpSmF_X4b3F11OoaapkbQ/exec', {
+    fetch('https://script.google.com/macros/s/AKfycbxjNNsnOo97iqdkHwco5U2B8y1JGve4P43cVYqX7KwV0802xEQ3XKHa5uVndESR0JQj/exec', {
         method: 'POST',
         body: JSON.stringify(data),
         headers: {
